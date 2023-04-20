@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-function Countdown(){
+function Countdown() {
   let [targetSeconds, setTargetSeconds] = useState(null);
 
   let [seconds, setSeconds] = useState(0);
@@ -47,7 +47,7 @@ function Countdown(){
   }
 
   return(
-    <p>Quedan {targetSeconds - seconds} segundos</p>
+    <p>Quedan { targetSeconds - seconds } segundos</p>
   );
 }
 
